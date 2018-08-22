@@ -1,0 +1,32 @@
+#card
+{
+    background-color: brown;
+    /*width: 60%;*/
+    /* position: absolute; */
+}
+
+#titulo
+{
+    color: white;
+}
+
+#data > div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#img-tribu
+{
+    /*float: left;    */
+}
+
+#lider
+{
+    font-weight: bold;
+}
+#miembros
+{
+    float:top;
+    height: 100px;
+    /*text-align: start;*/
+}
