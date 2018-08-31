@@ -1,0 +1,84 @@
+body {
+	background: #FFFFFF;
+	border: none;
+	color: #000000;
+	font-family: 'Lato', 'Helvetica Neue', sans-serif;
+	font-size: 17px;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+header h1 {
+	font-style: italic;
+	padding-top: 20px;
+	padding-right: 40px;
+	text-align: center;
+}
+
+#contenedor {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #D6F5F9;
+ }
+
+nav.submenu {
+	margin: 20px;
+	margin-left: 0;
+	font-size: 16px;
+	background: #0DFC48;
+	float: left;
+	border-radius: 4px;
+}
+
+nav.submenu a{ 
+	height: 20px;
+	width: 220px;
+	color: #000000;
+	text-align: left;
+	padding: 20px;
+	float: left;
+	display: inline-block;
+}
+
+nav.submenu a:hover{ 
+	height: 20px;
+	width: 220px;
+	color: #157DFC;
+	padding: 20px;
+	padding-left: 30px;
+	text-align: left;
+	background: #0BE288;
+	float: left;
+	box-shadow: 0 0 10px rgba(0,0,0,.15);
+}
+
+
+#contenido {
+	width: 70%;
+ 	border-radius: 4px;
+	overflow: hidden;	
+  	margin: 20px auto;
+  	padding: 15px;
+  	background: #F4F4F6;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	text-align: justify;
+	color: #000000;
+	font-size: 14px;
+  	float: left;
+}
+
+#contenido a{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#contenido h2{
+	text-align: center;
+}
+
+#contenido hr{
+	width: 95%;
+}
