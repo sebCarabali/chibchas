@@ -88,3 +88,15 @@ h2, h3{
 #left a{
     color:white;
 }
+
+#ejemplo1{
+background-color: red;
+}
+
+#ejemplo2{
+background-color: blue;
+}
+
+.aplicaParaTodos{
+color: orange;
+}
