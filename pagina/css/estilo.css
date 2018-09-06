@@ -1,0 +1,112 @@
+
+body {
+    background-color: #C39792;
+}
+
+#top {
+    position: relative;
+    background-color: #5E070D;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+#top h1 {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#top h6 {
+    color: black;
+    text-decoration: none;
+    border-bottom: none;
+}
+#bottom {
+    color: #fff;
+    position: relative;
+    background-color: #5E070D;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+#left {
+    float: left;
+    background-color: #5E070D;
+    padding: 5px;
+    width: 150px;
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #C39792;
+    padding: 5px;
+}
+
+.left_content {
+    background-color: #C39792;
+    padding: 5px;
+    margin-left: 170px;
+}
+.left_content h1 {
+   color:#5E070D;
+}
+h2, h3{
+	color:#5E070D;
+}
+
+.right_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin: 0px 170px 0px 170px;
+}
+
+#top a:link, #top a:visited {
+  color: white;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+  color: black;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+.content-img {
+    width: 200px;
+}
+
+#left h2 {
+
+    color: #B8860B;
+}
+
+#left a{
+    color:white;
+}
+
+#ejemplo1{
+background-color: red;
+}
+
+#ejemplo2{
+background-color: blue;
+}
+
+.aplicaParaTodos{
+color: orange;
+}
+
+h4{
+    color: blue;
+
+}
