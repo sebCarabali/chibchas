@@ -82,3 +82,18 @@ a:link:hover, a:visited:hover  {
   text-decoration: none;
   color : #F89C0D;
 }
+
+/* Formulario */
+
+#frm-sugerencia {
+  padding: 10px;
+}
+
+.form-ctrl {
+  margin-bottom: 10px;
+}
+
+label {
+  float: left;
+  width: 150px;
+}
