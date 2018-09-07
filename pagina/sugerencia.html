@@ -23,10 +23,10 @@
                 <li>
                     Miembros tribu
                     <ul>
-                        <li><a href="">Vanesa</a></li>
-                        <li><a href="">Andres</a></li>
-                        <li><a href="">Roby</a></li>
-                        <li><a href="">Sebastian</a></li>
+                        <li><a href="perfilVanesa.html">Vanesa</a></li>
+                        <li><a href="andres/index.html">Andres</a></li>
+                        <li><a href="perfilAnderson.html">Roby</a></li>
+                        <li><a href="sebastian.html">Sebastian</a></li>
                     </ul>
                 </li>
                 <li><a href="sugerencia.html">Sugerencias</a></li>
@@ -34,29 +34,44 @@
         </div>
         <div id="content" class="left_content">
             <h1>Chibchas</h1>
-            <label for="Nombre">Nombre</label>
-            <input type="text" name="Nombre"><br>
-            <label for="Edad">Edad</label>
-            <input min="18" max="100" type="number" name="Edad"><br>
-            <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="info@correo.com" required /><br>
-            <label for="Pais">Pais</label>
-            <input type="text" name="Pais"><br>
-            <label for="sexo">sexo</label>
-            <select name="sexo">
-                <option value="Masc">Masculino</option>
-                <option value="Fem">Femenino</option>
-                <option value="Otro">Otros</option>
-            </select><br>
-            <label for="Sugerencia">Sugerencia</label><br>
-            <textarea name="Sugerencia" id="ta" cols="30" rows="10"></textarea>
-            <button>Enviar</button>
+            <form action="" id="frm-sugerencia">
+                <div class="form-ctrl">
+                    <label for="">Nombre</label>
+                    <input type="text" required name="nombre" />
+                </div>
+                <div class="form-ctrl">
+                    <label for="Edad">Edad</label>
+                    <input min="18" max="100" type="number" required name="Edad">
+                </div>
+                <div class="form-ctrl">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="info@correo.com" required />
+                </div>
+                <div class="form-ctrl">
+                    <label for="Pais">Pais</label>
+                    <input type="text" name="Pais" required>
+                </div>
+                <div class="form-ctrl">
+                    <label for="sexo">sexo</label>
+                    <select name="sexo">
+                        <option value="Masc">Masculino</option>
+                        <option value="Fem">Femenino</option>
+                        <option value="Otro">Otros</option>
+                    </select>
+                </div>
+                <div class="form-ctrl">
+                    <label for="Sugeren cia">Sugerencia</label>
+                    <textarea name="Sugerencia" id="ta" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-opc">
+                    <button>Enviar</button>
+                </div>
+            </form>
         </div>
-    </div>
-    <center>
-        <div id="bottom">Ingenieria de Sistemas - Software 3
-        </div>
-    </center>
+        <center>
+            <div id="bottom">Ingenieria de Sistemas - Software 3
+            </div>
+        </center>
 </body>
 
 </html>

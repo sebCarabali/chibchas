@@ -28,3 +28,76 @@ a:link:hover, a:visited:hover  {
   text-decoration : underline;
 }
 
+.subtitle {
+  font-size: 1.2rem;
+  color: #dd2200;
+}
+
+
+/* Libros */
+
+.books {
+  width: 98%;
+}
+
+.book{
+  background-color: #fff;
+  margin: 10px 0;
+  /*padding: .5em;*/
+}
+
+.book-image {
+  width: 30%;
+  vertical-align: top;
+  display: inline-block;
+  height: 350px;
+  
+}
+
+.book-image img {
+  width: 95%;
+  height: 100%;
+}
+
+.book-description {
+  width: 69%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.book-link {
+  color: #F89C0D;
+}
+
+.book-link:visited {
+  color: #F89C0D;
+}
+
+.canales li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.canales li a {
+  text-decoration: none;
+  color : #F89C0D;
+}
+
+/* Formulario */
+
+#frm-sugerencia {
+  padding: 10px;
+}
+
+.form-ctrl {
+  margin-bottom: 10px;
+}
+
+label {
+  float: left;
+  width: 150px;
+}
+
+.imgperfil {
+  float: left;
+}
