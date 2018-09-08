@@ -13,6 +13,8 @@ body
 h1{
     color: #ee4444;
     font-family: 'Russo One', sans-serif;
+    
+    
 
 }
 nav ul li
@@ -109,5 +111,80 @@ tr
 {
     height: -5px;
     color: #dff8eb;
+  
 }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.area{
+  text-align:center;
+  font-size:3em;
+  color:#ee4444;
+  letter-spacing: -7px;
+  font-weight:100;
+  text-transform:uppercase;
+  animation:blur .70s ease-out infinite;
+  text-shadow:0px 0px 4px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+span {
+
+    text-align: center;
+    font-family:700 4em/1 'Lobster', cursive;
+    letter-spacing: 0;
+    padding: .30em 0 .325em;
+      display: block;
+      margin: 0 auto;
+    text-shadow: 0 0 80px rgba(230, 141, 7, 0.815);
+
+
+
+      background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+      -webkit-background-clip: text;
+      background-clip: text;
+
+
+
+      -webkit-text-fill-color:transparent;
+      -webkit-animation: aitf 80s linear infinite;
+
+
+
+      -webkit-transform: translate3d(0,0,0);
+      -webkit-backface-visibility: hidden;
+
+  }
+
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+
 
